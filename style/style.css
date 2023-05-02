@@ -1,0 +1,180 @@
+main {
+    font-family: "Futura";
+}
+
+/*Navbar*/
+#navbar {
+    background-color: black;
+    padding: 10px 200px 10px 10px;
+    height: 75px;
+}
+
+#navbar li a {
+    color: white;
+    font-weight: bold;
+}
+
+/*title part*/
+#title {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 200px;
+    align-items: center;
+
+}
+
+#title img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    filter: grayscale(100);
+    width: 100%;
+    height: 800px;
+    opacity: 0.2;
+}
+
+#title div {
+    top: 40%;
+    position: relative;
+    color: white;
+    opacity: 1;
+}
+
+#title div h1 {
+    font-size: 700%;
+}
+
+
+h3 {
+    margin: 0;
+}
+
+#title div p {
+    font-size: 150%;
+}
+
+
+body {
+    background-color: #3D3D3D;
+}
+
+
+#aboutme {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 200px;
+    background-color: #121212;
+    padding: 50px;
+
+}
+
+#aboutme img {
+    height: auto;
+    width: 300px;
+}
+
+#aboutme ul {
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+}
+
+#aboutme ul li {
+    font-size: 120%;
+    font-family: Verdana, serif;
+}
+
+button {
+    margin-top: 100px;
+    padding: 10px 20px 10px 20px;
+    border: black solid;
+    border-radius: 10px;
+}
+
+#images img {
+    width: 2000px;
+    height: 100%;
+}
+
+#images .item {
+    margin: 40px 40px 100px;
+}
+
+#images .item h3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#images button{
+    border: none;
+    margin-bottom: 250px;
+}
+
+#projects {
+    height: 2000px;
+    width: 100%;
+    background-color: #121212;
+    margin-bottom: 100px;
+}
+
+#projects h3 {
+    padding: 30px 0px 30px 0px;
+}
+
+.divProject {
+    background-color: #2B2B2B;
+    margin: 30px 100px 70px 100px;
+    padding: 30px;
+}
+
+.divProject img {
+    width: 100%;
+}
+
+
+.github a {
+    color: white;
+    font-size: 200%;
+}
+
+.container {
+    color: white;
+}
+
+
+#icons a {
+    color: white;
+    font-size: 200%;
+    padding: 5px;
+}
+
+#SDM630 h5 {
+    margin-top: 50px;
+}
+
+#SDM630 {
+    padding-bottom: 20px;
+}
+
+.carousel {
+    padding-top: 50px;
+}
+
+
+#Projectweek .carousel {
+    padding-top: 75px;
+}
+
+#projects {
+    height: 100%;
+}
+
+
+#ProjectHosting img {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Home</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="/style/style.css">
+
+</head>
+<body>
+<main>
+    <div id="navbar">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#projects">Projects</a>
+            </li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="title">
+            <img src="src/background.jpg" alt="Binary code">
+            <div>
+                <h1>Welcome to my portfolio</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div id="aboutme" class="pt-5">
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <img src="/src/JoppeVandenBroeck.jpg" alt="">
+                        <ul>
+                            <li>Joppe Van den Broeck</li>
+                            <li>Cloud & Cyber Security</li>
+                        </ul>
+                        <div id="icons">
+                            <p class="fa"><a href="https://github.com/joppevdb">&#xf09b;</a></p>
+                            <p class="fa"><a
+                                    href="https://www.linkedin.com/in/joppe-van-den-broeck-71a339252/">&#xf08c;</a></p>
+                        </div>
+                    </div>
+                    <div class="col-7 offset-1">
+                        <h3>ABOUT ME</h3>
+                        <br>
+                        <p>I am a Joppe Van den Broeck, a student at the Thomas More college in Geel. Here I follow the course of Cloud and Cyber Security. I first came into contact with computer science during my high school. I then opted to continue studying in this field.</p>
+                        <p> My choice for CCS was mainly influenced by the orientation project in the first year. Here we had to set up a LAN party with different types of servers.</p>
+                        <p>In the future, I do not have any concrete plans yet, but I do have some ideas I would like to pursue. First, I would like to get additional certificates for networking because the networks parts currently interest me the most in the course.</p>
+                        <p>Secondly, I would also like to do some additional education related to management so that I could move into a management position later on.</p>
+                        <div class="text-center">
+                            <a href="/src/CV-Joppe%20Van%20den%20Broeck.pdf" download>
+                                <button>Download CV</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="projects" class="text-center p-4">
+                <h1 class="pt-4">PROJECTS</h1>
+                <div class="divProject">
+                    <div class="row">
+                        <div class="carousel col-6">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/src/SDM630/Setup.jpg" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/SDM630/website.png" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/SDM630/API_call.png" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/SDM630/meter.png" alt="setup">
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                       data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                       data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="SDM630" class="col-6">
+                            <h3>SDM630</h3>
+                            <p class="text-left">This is an independent project that I started in my spare time.
+                                Currently the basis of the project is already working, but I am still working on extensions to make
+                                make it more user-friendly. </p>
+                            <p class="text-left">The end goal of the project is to be able to switch different
+                                circuits in a house according to the imports or exports measured on the SDM630 meter.</p>
+                            <h5 class="text-left">Technical explanation</h5>
+                            <p class="text-left">The more technical process goes as follows. The meter is read out using a raspberry pi. This pi will retrieve the information on the basis of a modbus. The retrieved information is then written to the database (also running on the raspberry pi). After this, the results are studied and the circuits are switched on or off where necessary (by setting a pin high or low on the pi). All this information is also shown on a webpage using an API. web page.</p>
+                            <p class="text-left">Technologies: Python, Javascript, HTML and CSS</p>
+                            <p class="text-left">Soft skills: Self-motivation, Problem solving</p>
+                            <p class="text-left">Hard skills: Reading modbus, Connecting database with API</p>
+                            <p class="fa github"><a href="https://github.com/joppevdb/SDM630">&#xf09b;</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="divProject" id="Projectweek">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>PROJECTWEEK</h3>
+                            <div class="text-left">
+                                <p>The project week is part of the of System analysis.  During this project week, we are given the task of building a smart coffee machine. This smart coffee machine would then have to take the place of the coffee machines that are currently used on campus.</p>
+                                <p>Beforehand, we had to spend half a year in a group of 4 planning everything around what exactly we were going to build. During these six months we had to make several reports and perform different analyses.</p>
+                                <p>During the project week itself, everything was built. The coffee machine itself was simulated by a raspberry pi with different push buttons and lights. Then a front-end was set up to control the raspberry pi. Through api-calls the database was kept up to date. Finally, all the information was displayed on a dashboard that could be operated by the administrator.
+                                    </p>
+                                <p>I mainly worked on the front-end and the api-calls that retrieve information from the database.</p>
+                                <p>Technologies: Python, Javascript, HTML, CSS, Java and Grafana</p>
+                                <p>Soft skills: Teamwork, Responsibility, Communication, Decisiveness </p>
+                                <p>Hard skills: Create api-call in java, Style web page, Make web page run a python script</p>
+                            </div>
+                            <p class="fa github"><a href="https://github.com/joppevdb/front_end_klant">&#xf09b;</a></p>
+
+                        </div>
+                        <div class="carousel col-6">
+                            <div id="carouselProjectweek" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/src/Projectweek/create_user.png" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/Projectweek/login_user.png" alt="setup">
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselProjectweek" role="button"
+                                       data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselProjectweek" role="button"
+                                       data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divProject" id="yahtzee">
+                    <div class="row">
+                        <div class="carousel col-6">
+                            <div id="carouselYahtzee" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/src/yahtzee/spel.png" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/yahtzee/overzicht.png" alt="setup">
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselYahtzee" role="button"
+                                       data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselYahtzee" role="button"
+                                       data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <h3>YAHTZEE</h3>
+                            <div class="text-left">
+                                <p>This is a project I made at Karel de Grote High School. For this project we had to choose a game and then recreate it in java. We had chosen the game yahtzee. </p>
+                                <p>The program was written in form of an MVC(model view controller). This means that the model retains all the information. This information is then retrieved via the controller and then shown to the user via the view.
+                                </p>
+                                <p>The project was quite simple in terms of data everything was stored locally and processed via classes.</p>
+                                <p>Technologies: Java</p>
+                                <p>Soft skills: Teamwork, Creativity</p>
+                                <p>Hard skills: Creating an application with the MVC model</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divProject" id="ProjectHosting">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>PROJECT HOSTING</h3>
+                            <div class="text-left">
+                                <p>Project hosting is a course spread over the second semester of the academic year.  The assignment of this course is to establish a hosting platform. This platform should be scalable and should be able to host multiple projects. </p>
+                                <p>Currently the project is in the construction phase but this phase will be completed within a few weeks. After this, it should be finished.</p>
+                                <p>I myself have dedicated myself to making the API this API will drive the platform. The API has very different tasks from creating new users to changing the PHP version in a container.</p>
+                                <p>Technologies: VMware, Kubernetes, FastAPI</p>
+                                <p>Soft skills: Teamwork, Problem-solving, Creativity</p>
+                                <p>Hard skills: Working in a data center, automation of a hosting platform</p>
+                            </div>
+
+                        </div>
+                        <div class="carousel col-6">
+                            <div id="carouselProjectHosting" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/src/Project_hosting/vSphere.png" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/Project_hosting/rancher.png" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/Project_hosting/api.png" alt="setup">
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselProjectHosting" role="button"
+                                       data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselProjectHosting" role="button"
+                                       data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <a href="images.html">
+                                    <button>To see image larger</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="divProject" id="API">
+                    <div class="row">
+                        <div class="carousel col-6">
+                            <div id="carouselAPI" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/src/API/main.png" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/API/breweries.png" alt="setup">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/src/API/owner.png" alt="setup">
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselAPI" role="button"
+                                       data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselAPI" role="button"
+                                       data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <h3>API</h3>
+                            <div class="text-left">
+                                <p>For the final project of the course API development, we were asked to create an API connected to a database (SQL). This API should be built completely automatically with GitHub actions. After this, the API will be hosted on Okteto and connected to a front-end hosted on Netlify.</p>
+                                <h5>Thema</h5>
+                                <p>The chosen theme is beer because I personally find it an interesting theme. The chosen theme is beer. The API is built around tracking which brewery has brewed which beers.</p>
+                                <h5>API</h5>
+                                <p>The API is more complex to keep an overview the API is divided into three parts (beers, breweries, owners). For each part, a table is created in the database. Then a post is created for each component so that data can be added quickly. Finally, for each section there are also different gets to retrieve the data. For the beers component, a delete is also added.</p>
+                                <p>Technologies: Docker, Fastapi, MariaDB, Github</p>
+                                <p>Soft skills: Self-motivation, Problem-solving, Creativity</p>
+                                <p>Hard skills: Github actions, Making own docker-compose, Creating API-calls</p>
+                            </div>
+                            <p class="fa github"><a href="https://github.com/joppevdb/Eindproject">&#xf09b;</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
